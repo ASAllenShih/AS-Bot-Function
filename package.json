@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "typescript": "^5.6.2"
+  },
+  "name": "as-bot-function",
+  "version": "1.0.0",
+  "description": "[AS]機器人常用功能套件",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "undici-types": "^6.19.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "AS_Allen_Shih",
+  "license": "CC-BY-SA-4.0"
+}

@@ -12,6 +12,7 @@ enum CommandType {
 	Manage = 'manage',
 	Bot = 'bot',
 	Music = 'music',
+	Guild = 'guild',
 };
 interface CommandConfigJSON {
 	cooldown: Cooldown;

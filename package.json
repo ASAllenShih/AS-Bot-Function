@@ -7,15 +7,15 @@
   "version": "1.0.0",
   "description": "[AS]機器人常用功能套件",
   "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
   "dependencies": {
     "undici-types": "^6.19.8"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsc",
+    "update_patch": "npm version patch && git push --follow-tags && git pull && echo \"版本漏洞修正更新\"",
+    "update_minor": "npm version minor && git push --follow-tags && git pull && echo \"版本功能更動更新\"",
+    "update_major": "npm version major && git push --follow-tags && git pull && echo \"版本架構更動更新\""
   },
   "author": "AS_Allen_Shih",
   "license": "CC-BY-SA-4.0"

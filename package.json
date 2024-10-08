@@ -4,7 +4,7 @@
     "typescript": "^5.6.2"
   },
   "name": "as-bot-function",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "[AS]機器人常用功能套件",
   "main": "dist/index.js",
   "dependencies": {

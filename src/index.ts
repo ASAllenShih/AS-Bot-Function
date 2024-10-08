@@ -1,10 +1,10 @@
 import {
-    CooldownType,
-    CommandType,
-    CommandConfig,
+	CooldownType,
+	CommandType,
+	CommandConfig,
 } from './command/config';
 export {
-    CooldownType,
-    CommandType,
-    CommandConfig,
+	CooldownType,
+	CommandType,
+	CommandConfig,
 }

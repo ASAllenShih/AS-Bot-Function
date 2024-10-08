@@ -50,5 +50,6 @@ class CommandConfig {
 export {
 	CooldownType,
 	CommandType,
+	CommandConfigJSON,
 	CommandConfig,
 };

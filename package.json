@@ -8,6 +8,7 @@
   "description": "[AS]機器人常用功能套件",
   "main": "dist/index.js",
   "dependencies": {
+    "discord.js": "^14.16.3",
     "undici-types": "^6.19.8"
   },
   "scripts": {
